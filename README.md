@@ -1,6 +1,6 @@
 # SecureUxTheme
 
-![License](https://img.shields.io/github/license/namazso/SecureUxTheme) ![Downloads](https://img.shields.io/github/downloads/namazso/SecureUxTheme/total) ![GitHub Version](https://img.shields.io/github/v/release/namazso/SecureUxTheme) ![Scoop Version](https://img.shields.io/scoop/v/secureuxtheme?bucket=extras)
+![License](https://img.shields.io/github/license/joelvaneenwyk/windows-secure-ux-theme) ![Downloads](https://img.shields.io/github/downloads/joelvaneenwyk/windows-secure-ux-theme/total) ![GitHub Version](https://img.shields.io/github/v/release/joelvaneenwyk/windows-secure-ux-theme) ![Scoop Version](https://img.shields.io/scoop/v/secureuxtheme?bucket=extras)
 
 ## About
 
@@ -8,11 +8,11 @@ SecureUxTheme is a piece of software that removes signature verification of styl
 
 ## Features
 
-* No system file modifications
-* No driver needed
-* Secure boot compatible
-* Probably quite future-proof
-* Fixes LogonUI resetting some colors on locking
+- No system file modifications
+- No driver needed
+- Secure boot compatible
+- Probably quite future-proof
+- Fixes LogonUI resetting some colors on locking
 
 ## Limitations
 
@@ -20,10 +20,10 @@ Styles must still have a format-wise valid signature appended, it is just not ve
 
 ## Operating System Support\*
 
-* Windows 8.1
-* Windows 10
-* Windows 11 (tested: 21H2, 22H2)
-* Future versions\*\*
+- Windows 8.1
+- Windows 10
+- Windows 11 (tested: 21H2, 22H2)
+- Future versions\*\*
 
 \* Windows 7 or older will never be supported due to the way themes are implemented.
 
@@ -31,11 +31,12 @@ Styles must still have a format-wise valid signature appended, it is just not ve
 
 ## Download
 
-[Latest release](https://github.com/namazso/SecureUxTheme/releases/latest/download/ThemeTool.exe)
+[Latest release](https://github.com/joelvaneenwyk/windows-secure-ux-theme/releases/latest/download/ThemeTool.exe)
 
-[Development builds](https://github.com/namazso/SecureUxTheme/actions)
+[Development builds](https://github.com/joelvaneenwyk/windows-secure-ux-theme/actions)
 
 [Scoop:](https://scoop.sh/)
+
 ```shell
 scoop bucket add extras
 scoop install secureuxtheme
@@ -70,42 +71,42 @@ I recommend [DeviantArt](https://www.deviantart.com/tag/windows10themes) for fin
 
 This software is provided completely free of charge to you, however I spent time and effort developing it. If you like this software, please consider making a donation:
 
-* Bitcoin: 1N6UzYgzn3sLV33hB2iS3FvYLzD1G4CuS2
-* Monero: 83sJ6GoeKf1U47vD9Tk6y2MEKJKxPJkECG3Ms7yzVGeiBYg2uYhBAUAZKNDH8VnAPGhwhZeqBnofDPgw9PiVtTgk95k53Rd
+- Bitcoin: `1N6UzYgzn3sLV33hB2iS3FvYLzD1G4CuS2`
+- Monero: `83sJ6GoeKf1U47vD9Tk6y2MEKJKxPJkECG3Ms7yzVGeiBYg2uYhBAUAZKNDH8VnAPGhwhZeqBnofDPgw9PiVtTgk95k53Rd`
 
 ## Frequently Asked Questions
 
-### **Q: Help, SecureUxTheme broke my install and it's login looping now**
+### Q: Help, SecureUxTheme broke my install and it's login looping now
 
-A: [Help: Login loop after installing SecureUxTheme](https://github.com/namazso/SecureUxTheme/wiki/Help:-Login-loop-after-installing-SecureUxTheme)
-
----
-
-### **Q: Help, a theme broke my install and it's login looping now**
-
-A: [Help: Login loop after setting a theme](https://github.com/namazso/SecureUxTheme/wiki/Help:-Login-loop-after-setting-a-theme)
+A: [Help: Login loop after installing SecureUxTheme](https://github.com/joelvaneenwyk/windows-secure-ux-theme/wiki/Help:-Login-loop-after-installing-SecureUxTheme)
 
 ---
 
-### **Q: I just want a themed Windows, what do I do with all this?**
+### Q: Help, a theme broke my install and it's login looping now
 
-A: [Help: Step by step installing SecureUxTheme and a custom theme](https://github.com/namazso/SecureUxTheme/wiki/Help:-Step-by-step-installing-SecureUxTheme-and-a-custom-theme)
-
----
-
-### **Q: I have 1909 or later, and the Address bar / Search bar is weird when clicked**
-
-A: Consider using OldNewExplorer which fixes this. Alternatively, see [Issue #6](https://github.com/namazso/SecureUxTheme/issues/6).
+A: [Help: Login loop after setting a theme](https://github.com/joelvaneenwyk/windows-secure-ux-theme/wiki/Help:-Login-loop-after-setting-a-theme)
 
 ---
 
-### **Q: Can you make themes per-program?**
+### Q: I just want a themed Windows, what do I do with all this?
 
-A: Unfortunately, this is [close to impossible](https://github.com/namazso/SecureUxTheme/issues/9#issuecomment-611897882). However for Office programs, there is a [plugin](https://github.com/matafokka/ExcelDarkThemeFix) for fixing this.
+A: [Help: Step by step installing SecureUxTheme and a custom theme](https://github.com/joelvaneenwyk/windows-secure-ux-theme/wiki/Help:-Step-by-step-installing-SecureUxTheme-and-a-custom-theme)
 
 ---
 
-### **Q:** `SelectTheme: pTheme->GetVisualStyle failed with 80070002`
+### Q: I have 1909 or later, and the Address bar / Search bar is weird when clicked
+
+A: Consider using OldNewExplorer which fixes this. Alternatively, see [Issue #6](https://github.com/joelvaneenwyk/windows-secure-ux-theme/issues/6).
+
+---
+
+### Q: Can you make themes per-program?
+
+A: Unfortunately, this is [close to impossible](https://github.com/joelvaneenwyk/windows-secure-ux-theme/issues/9#issuecomment-611897882). However for Office programs, there is a [plugin](https://github.com/matafokka/ExcelDarkThemeFix) for fixing this.
+
+---
+
+### Q: `SelectTheme: pTheme->GetVisualStyle failed with 80070002`
 
 A: You probably installed a theme by opening / double clicking. Custom themes cannot be installed like that, they must be moved to `%WINDIR%\Resources\Themes` with all their accompanying files.
 
@@ -119,17 +120,17 @@ Naming has been pretty messy in this project, I admit that. Originally this proj
 
 ### Requirements
 
-* Visual Studio 2022 (or above) with x86, x64, ARM64 toolchains
+- Visual Studio 2022 (or above) with x86, x64, ARM64 toolchains
 
 ### Compiling
 
 Note that the order of the builds is important, building ThemeTool will fail if some architecture is missing SecureUxTheme build.
 
-1. Open SecureUxTheme.sln
-2. Build SecureUxTheme as Release/Win32
-3. Build SecureUxTheme as Release/ARM64
-4. Build SecureUxTheme as Release/x64
-5. Build ThemeTool as Release/Win32
+1. Open `SecureUxTheme.sln`
+2. Build `SecureUxTheme` as `Release/Win32`
+3. Build `SecureUxTheme` as `Release/ARM64`
+4. Build `SecureUxTheme` as `Release/x64`
+5. Build `ThemeTool` as `Release/Win32`
 
 ### Debugging
 
