@@ -32,12 +32,12 @@ jobs:
       run: msbuild "-p:Configuration=Release;Platform=Win32;CI_VERSION=${{ github.ref_name }}" SecureUxTheme.sln
 
     - name: Upload everything to Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Everything
         path: .\bin\Release\**\*.*
     - name: Upload ThemeTool to Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ThemeTool
         path: |
